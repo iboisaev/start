@@ -1,0 +1,61 @@
+<!-- preloader -->
+<div class="preloader">
+	<div class="preloader__item"></div>
+</div>
+
+<!-- Hidden Required Fields -->
+<input type="hidden" name="project_name" value="Advogrand">
+<input type="hidden" name="admin_email" value="samirsaev6@gmail.com">
+<input type="hidden" name="form_subject" value="Заказать звонок консультанта">
+
+<!-- попап для благодарства -->
+<div class="popup thanks-popup hide">
+	<div class="popup__body thanks-popup__body thanks">
+		<h3 class="thanks__title popup__title">Благодарим за отправку заявки</h3>
+		<p class="thanks__text">Наш менеджер свяжется с вами в течении 5 минут</p>
+		<button class="thanks__close close">
+			<img src="img/icons/close-popup.svg" alt="Закрыть модальное окно" class="close__icon">
+		</button>
+	</div>
+</div>
+
+<!-- Кнопка наверх -->
+<a href="#header" class="btn-up hide lock-margin">
+	<img src="img/icons/arrow-up.svg" class="btn-up__arrow" alt="Кнопка наверх">
+</a>
+
+<!-- menu burger -->
+<div class="menu-burger hide lock-padding">
+	<span class="menu-burger__icon"></span>
+</div>
+
+<!-- dropdown -->
+<button class="dropdown">
+	<span class="dropdown__text">Quality</span>
+	<svg class="dropdown__icon icon icon--arrow icon--arrow-right">
+		<use xlink:href="img/sprite.svg#icon--arrow-right"></use>
+	</svg>
+	<ul class="dropdown__items">
+		<li class="dropdown__item">3D</li>
+		<li class="dropdown__item">1080p</li>
+		<li class="dropdown__item">720p</li>
+	</ul>
+</button>
+
+<!-- tabs -->
+<div class="tabs">
+	<button class="tab tab--active" data-tab="tab-1">Tab 1</button>
+	<button class="tab" data-tab="tab-2">Tab 2</button>
+</div>
+<div class="tab-body tab-body--active" data-tab-body="tab-1">
+	Tab body 1
+</div>
+<div class="tab-body" data-tab-body="tab-2">
+	Tab body 2
+</div>
+
+<!-- custom range -->
+<div class="range-input">
+	<input type="range" min="1" max="100" value="1" id="myRange" class="range">
+	<p>Value: <span id="valueRange"></span></p>
+</div>
