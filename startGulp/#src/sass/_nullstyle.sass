@@ -1,0 +1,63 @@
+* 
+	padding: 0
+	margin: 0
+	border: 0
+	+placeholder
+		font-family: inherit
+		opacity: 1
+
+*,*:before,*:after
+	box-sizing: border-box
+
+*:focus, *:active
+	outline: none
+
+header,nav,aside,footer
+	display: block
+
+html,body
+	width: 100%
+	height: 100%
+	font-size: 100%
+	line-height: 1
+	font-size: 14px
+	-ms-text-size-adjust: 100%
+	-moz-text-size-adjust: 100%
+	-webkit-text-size-adjust: 100%
+
+input
+	&:invalid 
+		box-shadow: none
+	&::-ms-clear
+		display: none
+
+input,button,textarea
+	font-family: inherit
+
+
+button
+	cursor: pointer
+	background-color: transparent
+	&::-moz-focus-inner
+		padding: 0
+		margin: 0
+
+a
+	color: inherit
+	&:focus,&:active
+		outline: none
+	&, &:visited
+		text-decoration: none
+	&:hover
+		color: inherit
+		text-decoration: none
+
+ul li
+	list-style: none
+
+img
+	vertical-align: top
+
+h1,h2,h3,h4,h5,h6
+	font-size: inherit
+	font-weight: 400
